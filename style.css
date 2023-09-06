@@ -1,0 +1,19 @@
+:root{
+    --dark-blue:  hsl(243, 87%, 12%);
+}
+
+body{color: var(--dark-blue);}
+section.about{
+    background: url('./images/bg-curve-mobile.svg') no-repeat center / cover;
+}
+.newsletter{background-color: hsl(238, 22%, 44%);}
+footer{background-color:  var(--dark-blue);}
+footer a:hover, footer a:focus{color: #0d6efd !important;}
+
+@media (min-width: 768px){
+    .input-group{width: 75% !important;}
+}
+
+@media (min-width: 998px){
+    .newsletter .input-group{width: 100% !important}
+}
